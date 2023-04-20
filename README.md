@@ -18,3 +18,9 @@ not matter).
 It seems like the generic types definition of `QueryStore` is still
 `QueryStore<_Data extends GraphQLObject, _Input extends {}>`, which means
 `_Input` still cannot be null in strict mode.
+
+
+# Solution
+
+`houdini` and `houdini-svelte` was changed from `^1.2.0-next.1` to
+`1.2.0-next.1`.
